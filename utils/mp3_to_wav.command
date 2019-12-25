@@ -3,7 +3,7 @@
 artist="birds"
 clipDuration=4
 samplingRate=22050
-shortName="song"
+shortName="birds_cornell"
 overlap=2
 baseFolder="../data"
 
