@@ -2,7 +2,7 @@
 ## A bird's-eye view exploration of the latent space
 #### Mini project for Machine Learning for Media Technology (SMC07-2019)
 
-Bird song generator using a Variational Convolutional Autoencode. Keras + Tensorflow + GPU.
+Bird song generator using a Variational Convolutional Autoencode. Keras + Tensorflow + GPU. Twitter bot available at [https://twitter.com/latentbirds/](https://twitter.com/latentbirds/)
 
 [Utils: mp3 splitter](utils/mp3_to_wav.command)
 A bash script to split mp3 files into 4-second wav chunks. Remember to manually delete chunks shorter than 4 seconds.
