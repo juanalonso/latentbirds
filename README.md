@@ -5,10 +5,10 @@
 Bird song generator using a Variational Convolutional Autoencode. Keras + Tensorflow + GPU. Twitter bot available at [https://twitter.com/latentbirds/](https://twitter.com/latentbirds/)
 
 #### Main files
-[1- mp3 splitter](utils/mp3_to_wav.command)
+[1- Mp3 to wav](utils/mp3_to_wav.command)
 A bash script to split mp3 files into 4-second wav chunks. Remember to manually delete chunks shorter than 4 seconds.
 
-[2- spectrogram generator](spectrograms.ipynb)
+[2- Spectrogram generator](spectrograms.ipynb)
 A notebook to create the spectrograms from the wav chunks.
 
 [3- Main file: latentbirds.ipynb](latentbirds.ipynb)
