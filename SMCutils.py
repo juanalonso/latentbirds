@@ -48,9 +48,10 @@ def get_spectrogram_array(file_list, n_mels, n_frames, spectrogram_folder_name, 
     return mel_spectrogram_array
 
 
-def split_dataset(mel_spectrogram_array, percentage_train=0.85, max_elements=-1, shuffle=False):
+def split_dataset(mel_spectrogram_array, percentage_train=0.80, max_elements=-1, shuffle=False):
     
     if shuffle:
+        np.random.seed(2019)
         np.random.shuffle(mel_spectrogram_array)
 
     x_train_index = int (percentage_train * (len(mel_spectrogram_array) if max_elements <= 0 else max_elements))
